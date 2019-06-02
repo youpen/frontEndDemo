@@ -1,0 +1,140 @@
+.listingItemWrapper {
+    flex-direction: column;
+    /*height: 208px;*/
+    margin: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #E8E8E8;
+    border-width: 1px;
+    border-bottom-style: solid;
+}
+
+.userInfo {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.avatarWrapper {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #67616D;
+    font-size: 14px;
+}
+
+.infoWrapper {
+    display: flex;
+    height: 84px;
+    padding: 10px 0 10px 0;
+    align-items: center;
+}
+
+.TimeLogo {
+    height: 15px;
+    width: 15px;
+}
+
+.previewWrapper {
+    margin: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.preview {
+    height: 64px;
+    width: 64px;
+}
+
+.leftWrapper {
+
+}
+
+.avatar {
+    height: 20px;
+    width: 20px;
+    margin: 5px 10px 5px 5px;
+    border-radius: 10px;
+}
+
+.channelWrapper {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #8560A9;
+    font-size: 12px;
+}
+
+.channel {
+    width: 89px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #D3C1E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.dateWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.date {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #8560A9;
+}
+
+.contentWrapper {
+    overflow: hidden;
+    color: #67616D;
+    font-size: 14px;
+}
+
+.content {
+}
+
+.actionsWrapper {
+    height: 45px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: #453257;
+    font-size: 12px;
+}
+
+.action {
+    margin-right: 15px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    color: #453257;
+}
+
+.logo {
+    height: 15px;
+    width: 15px;
+    padding: 5px;
+}
+
+.border {
+
+}

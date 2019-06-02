@@ -1,0 +1,111 @@
+.loginScreenWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100vh;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #8560A9;
+    opacity: 70%;
+}
+
+.inputWrapper {
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url('../assets/images/StreetDance.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #D5EF7F;
+}
+
+.firstTitle {
+
+}
+
+.secondTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.logo {
+    flex-grow: 1;
+    width: 64px;
+    height: 64px;
+}
+
+.inputB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 70%;
+}
+
+.userName {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.password {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tips {
+    width: 15px;
+    height: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.inputA {
+    background-color: transparent !important;
+    border-width: 0;
+    outline: none;
+    color: #453257 !important;
+    height: 20px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.signInButton {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D5EF7F;
+}

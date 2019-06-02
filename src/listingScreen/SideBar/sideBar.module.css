@@ -1,0 +1,126 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.filterWrapper {
+    height: 100%;
+    background-color: #453257;
+}
+
+.titleWrapper {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AC8EC9;
+    font-size: 12px;
+}
+
+.title {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #AC8EC9;
+}
+
+.searchButtonWrapper {
+    padding: 0;
+    margin: 0;
+    border-style: none;
+    background-color: #D5EF7F;
+    height: 64px;
+
+}
+
+.searchWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateFilter, .channelFilter {
+    width: 265px;
+    padding-left: 18px;
+    padding-right: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonWrapper {
+    /*width: 68px;*/
+    height: 24px;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 1px 6px 1px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent;
+    outline: none;
+    border-style: none;
+}
+
+.selectedButton {
+    background-color: #E5F7A9;
+    color: #453257;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.channelButtonBorder {
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #FFFFFF;
+}
+
+.bubble {
+    position: relative;
+    width: 208px;
+    height: 35px;
+    background: #FFF;
+    /*border-radius: 5px;*/
+    margin: 10px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.bubble:after {
+    content: '';
+    position:absolute;
+    top: -4px;
+    left: 30px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    background: #FFF;
+
+}
+
+.inputWrapper {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 66px;
+    height: 18px;
+    outline: none;
+}
+
+.searchLogo {
+    width: 24px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

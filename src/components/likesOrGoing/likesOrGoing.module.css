@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 19px 10px 19px 10px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #E8E8E8;
+}
+
+/*此处做记录，为什么左边的countWrapper没有设置alignItem和justifyConten会导致右边的*/
+/*div使用wrap时出现问题*/
+.countWrapper {
+    width: 93px;
+    display: flex;
+    align-items: flex-start;
+    padding: 6px 10px 0 10px;
+    justify-content: center;
+    font-size: 12px;
+    color: #67616D;
+}
+
+.avatarListWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*height: 65px;*/
+}
+
+.itemWrapper {
+    /*height: 24px;*/
+    /*width: 24px;*/
+    /*margin-left: 4px;*/
+    /*margin-right: 4px;*/
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    height: 27px;
+    width: 27px;
+    border-radius: 20px;
+}
+
+.checkLogo {
+    height: 20px;
+    width: 20px;
+
+    /*padding: 0 8px 0 8px;*/
+}
